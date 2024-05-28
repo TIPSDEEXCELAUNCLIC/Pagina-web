@@ -1,0 +1,107 @@
+<html>
+
+<head>
+<meta name="description" content="Esta página fue creada con objetivo educativo, resaltando valiosos tips de funciones y formulas de excel">
+<meta name="keywords" content="Funciones excel,fórmulas de excel, tips de funciones y fórmulas de excel, inicio en excel">
+<meta charset="UTF-8">
+<title>PRINCIPALES FUNCIONES DE EXCEL</title>
+
+</head>
+
+<Body>
+<center><img src="imagenes/foto jet.jpg" width="851" height="315"</img></imig></center>
+<br>
+
+
+<!-- Menú de navegación del sitio -->
+<class="navbar">
+<center><h2><a href="index.html">INICIO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="funcionesdetexto.html"</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="formulasfechayhora.html">FÓRMULAS DE FECHA Y HORA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="formulascondicionales.html">FÓRMULAS CONDICIONALES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p><a href="formulasoperativasmatematicas.html">FÓRMULAS OPERATIVAS MATEMÁTICAS</a></h2>
+<center><h2><a href="formulario.html">FORMULARIO</a></h2></p></font></center>
+<br>
+
+<center><font face="verdana"><body background= text="black">
+
+<center><table border="0" width="90%">
+<tr>
+<td colspan="2"><center><h2>PRINCIPALES FUNCIONES DE TEXTO EN EXCEL</h2></center></td>
+</tr>
+<tr>
+<td>
+<center><img src="imagenes/texto.jpg" all="Logo FDT"></img></center>
+<div align="justify">Las funciones de texto en Excel permiten modificar la apariencia del texto que aparece en las celdas. Las principales funciones son:
+<P>MAYUSC
+Permite poner el texto en mayúscula. En esta función el argumento tiene que ser texto o una referencia. Por ejemplo: =MAYUSC(A1).</P>
+
+<P><b>MINUSC</b>
+Convierte todas las mayúsculas de una cadena de texto en minúsculas. El texto se debe usar como argumento obligatorio. Quedaría así: =MINUSC(A1).</P>
+
+<P><b>CONCATENAR</b>
+Sirve para unir dos o más cadenas de texto en una sola. Por ejemplo una función correctamente escrita de CONCATENAR sería: =CONCATENAR(B1;D1). 
+El resultado por ejemplo puede unir un nombre localizado en la celda B1 con sus apellidos, en la celda D1. Desde 2016 esta función ha sido sustituida 
+por CONCAT, que es la función disponible en versiones más nuevas de Excel.</P>
+
+<P><b>NOMPROPIO</b>
+Es una función que sirve para poner en mayúsculas la primera letra de cada palabra de un valor de texto, concretamente el texto de un nombre propio.
+ Cambia a mayúscula la primera letra del argumento texto y cualquiera de las otras letras de texto que se encuentren después de un carácter que no es 
+una letra. Convierte todas las demás letras a minúsculas. Así, la función =NOMPROPIO(A1) convertirá una cadena de texto en mayúsculas o minúsculas,
+ según corresponda en A1.</P>
+
+<P><b>LARGO</b>
+Es una función que ofrece el número de caracteres de una cadena de texto. El argumento obligatorio que debes usar aquí es el texto cuya longitud deseas 
+obtener. Su fórmula es sencilla: =LARGO(texto o referencia).
+También existe la posibilidad de saber el número de bytes usados para representar los caracteres de una cadena de texto. Este resultado lo obtienes 
+si utilizas la función LARGOB. La fórmula es la misma que la de LARGO, pero añadiendo una ‘B’: =LARGOB(A1), por ejemplo.</P>
+
+<P><b>ESPACIOS</b>
+Esta función te será de utilidad si lo que deseas es eliminar espacios adicionales entre texto, solo mantiene el espacio natural entre palabra y palabra.
+ La sintaxis de esta función es la siguiente: =ESPACIO(texto o referencia).</P>
+
+<P><b>HIPERVÍNCULO</b>
+En este caso, hacemos referencia a una función que tiene como objetivo crear un acceso directo que te dirija a otra ubicación dentro del mismo libro o de
+ otro, a una página web o a un documento almacenado en una intranet, en Internet o en un servidor de red.
+La fórmula a aplicar sería =HIPERVINCULO(“dirección”; “Texto de ancla”). Por ejemplo, =HIPERVINCULO(http://example.microsoft.com/informe/presupuesto.xlsx);
+ “Haz clic aquí para ver el presupuesto”).</P>
+
+<P><b>SUSTITUIR</b>
+Ahora vamos con una función que tiene el propósito de sustituir una determinada palabra o frase dentro de una cadena de texto por otra. Sería el caso, 
+por ejemplo, de =SUSTITUIR(B15; “Madrid”; “Barcelona”).</P>
+
+<P><b>FINCIÓN ENCONTRAR</b>
+El objetivo de esta función es encontrar la posición inicial de un carácter dentro de una cadena de texto. Vamos a poner un ejemplo muy sencillo para que
+lo entiendas fácilmente.Imagina que en la celda A4 está escrita la palabra “Madrid”. Si usas la fórmula =ENCONTRAR(“d”, A4), aparecerá como resultado “3”, ya que es el lugar en 
+el que se encuentra la primera letra “d” dentro de la palabra. Ten en cuenta que esta función distingue entre minúsculas y mayúsculas.</P>
+
+<P><b>TRANSPONER</b>
+Esta función te permite cambiar filas por columnas. Puede que, mientras estás trabajando en Excel, decidas cambiar los ejes de una tabla y necesites cambiar
+ filas por columnas. Para hacerlo, debes seleccionar todas las filas y columnas y copiarlas en el portapapeles con CTRL + C.
+En la celda que elijas, haz clic con el botón derecho del ratón y selecciona Pegado especial. Una vez ahí, pulsa en Transponer en el menú que se desplegará 
+y ya habrás cambiado las filas por las columnas de la tabla.</p>
+<center><p>Te invitamos a que observes el siguiente video:</p></center>
+<br>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/vtIUnKVFoQQ?si=BZZxbEfef0mOkkvP" title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen></iframe></center>
+</p></td>
+</div>
+</tr>
+</table></center></font></body>
+<style>
+/* Estilo para el enlace */
+a {
+    color: MediumSeaGreen; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Eliminar el subrayado predeterminado del enlace */
+}
+a:hover {
+    color: red; /* Cambia el color del texto del enlace al pasar el cursor sobre él */
+}
+</style>
+
+
+
+
+
+</html>

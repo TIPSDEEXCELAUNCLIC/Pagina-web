@@ -1,0 +1,175 @@
+<html>
+
+<head>
+<meta name="description" content="Esta página fue creada con objetivo educativo, resaltando valiosos tips de funciones y formulas de excel">
+<meta name="keywords" content="Funciones excel,fórmulas de excel, tips de funciones y fórmulas de excel, inicio en excel">
+<meta charset="UTF-8">
+<title>PRINCIPALES FUNCIONES DE EXCEL</title>
+
+</head>
+
+<center><img src="imagenes/foto jet.jpg" width="851" height="315"</img></imig></center>
+<br>
+<!-- Menú de navegación del sitio -->
+<class="navbar">
+<center><h2><a href="index.html">INICIO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="funcionesdetexto.html"</a>FUNCIONES DE TEXTO</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="formulasfechayhora.html">FÓRMULAS DE FECHA Y HORA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="formulascondicionales.html"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p><a href="formulasoperativasmatematicas.html">FÓRMULAS OPERATIVAS MATEMÁTICAS</a></h2>
+<center><h2><a href="formulario.html">FORMULARIO</a></h2></p></font></center>
+<br>
+
+<center><font face="verdana"><body background= text="black">
+
+<center><table border="0" width="90%">
+<tr>
+</tr>
+<tr>
+<td>
+<center><P><h4>CREAR FÓRMULAS CONDICIONALES EN EXCEL</h4></P></center>
+<div align="justify">Las fórmulas condicionales son una herramienta muy útil para resaltar celdas que contienen valores que cumplen cierta condición, por ejemplo, verdadero o falso.
+
+<p>Para crear fórmulas condicionales en Excel se puede usar las funciones SI, Y, O y NO.</p>
+
+<p><b>Función SI</b></p>
+<p>La función SI sirve para realizar una comparación lógica entre un valor y un resultado. Con el resultado que obtienes se sabe si las condiciones son verdaderas 
+o falsas, correctas o incorrectas.</p>
+<p>Un ejemplo de sintaxis sería: =SI(B2<>15, «VERDADERO», «FALSO»), lo que significa que, si el valor de la referencia B2 no es igual a 15, el resultado será 
+‘Verdadero’, de lo contrario devolverá ‘incorrecto’.</p>
+
+<p>Como se ha visto, la fórmula de la condicional con SI tiene estos elementos:</p>
+<ul>
+<li>La condición que desea comprobar.</li>
+<li>El valor que se devolverá si la condición es VERDADERO.</li>
+<li>El valor se devolverá si la condición es FALSO.</li>
+</ul>
+<p>Es la función más utilizada porque además se puede complementar con otras fórmulas y funciones como las que verás a continuación.</p>
+
+<p><b>FUNCIÓN Y </b></p>
+<p>La función Y muestra el resultado VERDADERO si todos sus argumentos se evalúan como VERDADERO y muestra FALSO si uno o más argumentos se evalúan como FALSO. 
+Un ejemplo sería: =SI(Y(A1>1,A1<100), lo que quiere decir que la función mostrará VERDADERO si A1 es superior a 1 Y es inferior a 100, sino mostrará FALSO.</p>
+
+<p><b>FUNCIÓN O</b></p>
+<p>La función O se puede utilizar también si se quiere obtener un resultado condicionante. Un ejemplo de sintaxis sería: =SI(O(A1>B3);VERDADERO;FALSO). En este caso,
+como el condicionante O solo necesita que uno de los argumentos sea verdadero, la fórmula devuelve VERDADERO si A1 es mayor que B3.</p>
+
+<p><b>FÓRMULAS CONDICIONALES CON NO</b></p>
+<p>También se puede utilizar las fórmulas condicionales con NO. En este caso la fórmula podría ser =SI(NO(A1=15;VERDADERO;FALSO) lo que significa que si el valor de 
+A1 no es igual a 15, el resultado será VERDADERO, de lo contrario devolverá FALSO.</p>
+
+<p><b>¿CÓMO ARRASTRAS UNA FÓRMULA DE EXCEL?</b></p>
+<p>Si te estás preguntando cómo arrastrar una fórmula de Excel para no tener que copiarlas una a una, has llegado al sitio adecuado. Con estos pasos aprenderás
+a arrastrar fórmulas de forma rápida:</p>
+
+<p><b>Haz clic en la celda que contiene la fórmula que deseas copiar.</b></p>
+<p>Coloca el cursor en la esquina inferior derecha hasta que el cursor cambie y se convierta en un signo más (+).
+Arrastra el controlador de relleno de Excel hacia la dirección de las celdas que deseas rellenar. El método abreviado del teclado también te ayudará a hacer 
+esto con más agilidad.</p>
+<p>Cuando dejes de arrastrar, la fórmula se habrá copiado automáticamente en las celdas que has seleccionado.
+En la mayoría de los casos, el controlador de relleno funciona correctamente, pero te aconsejamos que revises al arrastrar una fórmula la referencia de la primera
+celda para que todo se muestre tal y como deseas.</p>
+
+<p><b>COPIAR FÓRMULAS DE EXCEL</b>
+<p>Excel también ofrece la posibilidad de copiar celdas. Al hacerlo, hay que tener en cuenta que las referencias de celda cambian. No obstante, copiar fórmulas en Excel 
+es un proceso sencillo y consta de los siguientes pasos:</p>
+
+</p><b>Haz clic sobre la celda que contiene la fórmula que quieres copiar.</b></p>
+<ul>
+<li>Pulsa el botón derecho del ratón y selecciona copiar o utiliza el atajo del teclado al pulsar CTRL + C o comando + C.</li>
+<li>Selecciona la celda en la que quieres copiar la fórmula. Si esa celda está en otra hoja de cálculo, ve a esa hoja de cálculo y haz clic en la celda que quieres.</li>
+<li>Haz clic en el botón de pegar en esa celda que ya tienes seleccionada.</li>
+<li>El programa te ofrece la opción de pegar la fórmula de distintas maneras, esto sirve por si deseas mantener el mismo formato de celda, el mismo formato de 
+número o si quieres mantener el formato de origen al copiar.</li>
+</ul>
+
+<p><b>¿SE PUEDES BLOQUEAR LAS FÓRMULAS EN EXCEL?</b></p>
+<p>Si quieres evitar que las fórmulas insertadas en tu hoja de cálculo se borren o se modifiquen por error tienes que protegerlas. Sigue estos 4 sencillos pasos para
+bloquear las fórmulas de forma sencilla:</p>
+<ul>
+<li></p>Selecciona todas las celdas de tu hoja de cálculo.</li></p>
+<li></p>Después tienes que abrir la ventana de ‘Formato celda’ o el atajo CTRL + 1 (o comando + 1). Una vez abierta esta ventana haz clic sobre la pestaña Proteger 
+y desmarca el botón de bloquear.</li></p>
+<li><p>A continuación, busca y selecciona todas las fórmulas y repite el mismo paso anterior, pero en la pestaña proteger activa el botón bloquear para proteger todas 
+las fórmulas de tu hoja de cálculo.</li></p>
+</ul>
+<p>Para ratificar esta protección debes ir al botón revisar y desde ahí haces clic en proteger hoja o libro e insertar la contraseña que quieras. Acepta los cambios
+ para cerrar esta pestaña y ya estarán tus fórmulas bloqueadas.</p>
+ 
+<center><video width="320" height="240" controls>
+  <source src="video/porque.MP4" type="video/MP4"></center>
+  
+</video>
+
+<p><b>CÓMO MOSTRAR Y OCULTAR FÓRMULAS EN EXCEL</b></p>
+<p>Ocultar las fórmulas de Excel, al igual que bloquearlas, puede resultarte útil para preservar la seguridad del documento. Al fin y al cabo, evitará que otras 
+personas que no tengan permiso las copien.</p>
+
+<p>En concreto, lo único que debes hacer es pulsar en la pestaña Protección. Una vez lo hagas, haz clic en Oculta. Esto ocultará las fórmulas para que nadie que acceda
+al documento pueda ver cómo has llegado a los resultados obtenidos. Para que vuelvan a aparecer, dale a Mostrar fórmulas.</p>
+
+<p><b>¿CÓMO ELIMINAR O QUITAR UNA FÓRMULA?</b></p>
+<p>Eliminar una fórmula es tan sencillo como seleccionar la celda en la que se encuentra y pulsar el botón Suprimir del teclado. Sin embargo, hay ocasiones en las que
+queremos borrar la fórmula, pero mantener el resultado.
+En este caso, selecciona las celdas que contienen la fórmula siguiendo esta ruta: Inicio > Modificar > Buscar y seleccionar > Ir a > Especial > Matriz actual.</p> 
+<p>Posteriormente, vuelve a pulsar en Inicio. Pero, en esta ocasión, selecciona Portapapeles y, después, Copiar. A continuación, pulsa en Pegar y, por último, en 
+Pegar valores.</p>
+
+<p><b>OTROS TRUCOS Y ATRAJOS DE EXCEL</b></p>
+<p>Excel es un programa con numerosas funcionalidades y herramientas, todas ellas muy útiles para trabajar con datos de todo tipo. Tanto si estás empezando a dominar 
+Excel o ya eres todo un experto, apunta estos trucos y atajos para mejorar y llegar a dominar el programa del todo:</p>
+
+<p><b>RESALTAR DUPLICADOS</b></p>
+<p>Si en una hoja hay varias celdas con un contenido duplicado puedes insertar una fórmula para que el programa te devuelva esos resultados duplicados de manera 
+diferente. Para ello selecciona las filas o columnas que quieres analizar. Después, haz clic en formato condicional. Ahí, selecciona reglas para resaltar celdas,
+elige valores duplicados y pulsa aceptar. De esta forma los valores repetidos aparecerán en otro color.
+Selecciona todas las celdas. Es un truco muy sencillo a la vez que útil, que por ejemplo se utiliza cuando quieres proteger fórmulas. Para seleccionar todas las
+celdas de la hoja haz clic en el cuadrado de la esquina izquierda de la hoja de cálculo.</p>
+<p> Es justo el que está en blanco a la izquierda de la columna A y encima de la columna 1. El atajo en el teclado es: CTRL + E. 
+Si tienes el programa en inglés será: CTRL + A.</p>
+
+<p>Cambiar filas por columnas. Puede que mientras estás trabajando en Excel decidas cambiar los ejes de una tabla y necesites cambiar filas por columnas para hacerlo
+debes seleccionar todas las filas y columnas y cópialas al portapapeles con CTRL + C. En la celda que elijas, haz clic en el botón derecho del ratón y selecciona 
+pegado especial una vez ahí elige Transponer en el menú que se despliega y ya tendrás cambiadas las filas por las columnas de tu tabla.</p>
+<p>Eliminar columnas en blanco. Las celdas en blanco pueden ser un elemento muy molesto por eso Excel permite eliminarlas de forma rápida. Selecciona el rango de 
+filas y celdas en la que quieres buscar. Después en la pestaña inicio, haz clic en edición. Una vez ahí haz clic en buscar y reemplazar e ir a especial.</p>
+<p>Marca la casilla de celdas en blanco y pulsa aceptar. Así se seleccionarán las celdas y en menú celdas>eliminar las podrás borrar.</p>
+<br>
+<p>Los atajos en Excel te facilitarán el uso de la herramienta. Hay un número muy amplio de atajos, aquí te mostramos alguno de los más útiles y usados:</p>
+
+<ol>
+<li><p><b>F10. Activa la barra de herramientas de Excel.</b></p></li>
+<li><p><b>CTRL + C. Sirve para copiar el contenido de una celda.</b></p></li>
+<li><p><b>CTRL + L. Atajo para buscar y reemplazar.</b></p></li>
+<li><p><b>CTRL + V. Sirve para pegar el contenido de una celda.</b></p></li>
+<li><p><b>CTRL + X. Sirve para cortar el contenido de una celda.</b></p></li>
+<li><p><b>CTRL + B. Activa el cuadro de diálogo para buscar.</b></p></li>
+<li><p><b>CTRL + . Es el atajo para insertar hora.</b></p></li>
+<li><p><b>CTRL + . Es el atajo para insertar fecha.</b></p></li>
+<li><p><b>CTRL + barra espaciadora. Es un atajo que marca la columna seleccionada.</b></p></li>
+<li><p><b>CTRL + 1. Para abrir el menú de formato celdas, útil para bloquear fórmulas.</b></p></li>
+<li><p><b>CTRL + ALT + V. Se abre el cuadro de diálogo para el ‘pegado especial’.</b></p></li>
+<li><p><b>Shift+ F3. Sirve para pegar una función.</b></p></li>
+<li><p><b>Shift + F12. Activa el cuadro de diálogo ‘guardar como’.</b></p></li>
+</ol>
+</p>Conocer y aprovechar las oportunidades que tanto las fórmulas como las funciones de Excel pueden aportar a la gestión de tareas es una de las habilidades más
+demandadas en la búsqueda activa de empleo. Ahora que ya conoces cuáles son las principales, toca lo más importante: practicar.</p></td>
+</div>
+</tr>
+</table></center></font></body>
+<style>
+/* Estilo para el enlace */
+a {
+    color: MediumSeaGreen; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Eliminar el subrayado predeterminado del enlace */
+}
+a:hover {
+    color: red; /* Cambia el color del texto del enlace al pasar el cursor sobre él */
+}
+</style>
+
+
+
+
+
+</html>

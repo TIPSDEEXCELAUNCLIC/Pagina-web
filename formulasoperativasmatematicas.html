@@ -1,0 +1,139 @@
+<html>
+
+<head>
+<meta name="description" content="Esta página fue creada con objetivo educativo, resaltando valiosos tips de funciones y formulas de excel">
+<meta name="keywords" content="Funciones excel,fórmulas de excel, tips de funciones y fórmulas de excel, inicio en excel">
+<meta charset="UTF-8">
+<title>PRINCIPALES FUNCIONES DE EXCEL</title>
+
+</head>
+
+<center><img src="imagenes/foto jet.jpg" width="851" height="315"</img></center>
+<br>
+<!-- Menú de navegación del sitio -->
+<class="navbar">
+<center><h2><a href="index.html">INICIO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="funcionesdetexto.html"</a>FUNCIONES DE TEXTO</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="formulasfechayhora.html">FÓRMULAS DE FECHA Y HORA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="formulascondicionales.html">FÓRMULAS CONDICIONALES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p><a href="formulasoperativasmatematicas.html"></a></h2>
+<center><h2><a href="formulario.html">FORMULARIO</a></h2></p></font></center>
+<br>
+
+<center><font face="verdana"><body background=text="black">
+
+<center><table border="0" width="90%">
+<tr>
+</tr>
+<tr>
+<td>
+<center><P><h4>FÓRMULAS DE EXCEL CON OPERACIONES MATEMÁTICAS</h4></P></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/TNjNaoRAT7A?si=ipfu6Aic8awFVISf" title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen></iframe></center>
+
+<div align="justify"><P>En Excel se pueden usar fórmulas sencillas para realizar operaciones matemáticas. Las más comunes son las siguientes:
+
+<p><b>SUMAR:</b>
+Para sumar con fórmulas de Excel hay que escribir el signo =, seleccionar la función SUMA y a continuación escribir la referencia a las celdas que quieras sumar. 
+La fórmula quedaría así: =SUMA(B2:B9). Si quieres realizar una suma simple entre celdas puedes hacerlo también añadiendo el signo = y después escribir la 
+referencia a las celdas que quieras sumar: =B2+B3.</p>
+<center><img src="imagenes/sumar.png"</img></center>
+<br>
+<p><b>RESTAR:</b>
+En Excel no hay función RESTAR. Se usa la función SUMA y se convierten los números que se desean restar en sus valores negativos. Por ejemplo: 
+=SUMA(45,-23,-5) o =SUMA(B2-B3-B4). Para hacer una resta simple puedes hacerlo poniendo el símbolo de restar (-) entre referencias. Por ejemplo: =B2-B3.</p>
+<center><img src="imagenes/restar.png"</img></center>
+<br>
+<p><b>MULTIPLICAR:</b>Escribe el símbolo de igual, después las celdas que se quieren multiplicar separadas por el símbolo *, que es el que hará efectiva la multiplicación. 
+Por ejemplo: =B2*B3. También puedes usar la función PRODUCTO para multiplicar números, celdas y rangos. Por ejemplo: =PRODUCTO(B2:B4).</p>
+<center><img src="imagenes/multiplicar.png"</img></center>
+<br>
+<p><b>PROMEDIO:</b>
+Esta fórmula ayuda a resolver la media aritmética de una serie de datos. Para aplicarla se debe escribir el signo = seguido de la función PROMEDIO y a continuación
+añadimos el rango de celdas de las cuales queremos extraer la media. Quedaría así: =PROMEDIO(B2:B4). Esta función tiene algunas especificaciones y es que varía 
+si se quiere calcular el promedio de los valores que solo cumplen ciertos criterios. Para ello, se debe aplicar la función PROMEDIO.SI o la función
+PROMEDIO.SI.CONJUNTO.</p>
+<center><img src="imagenes/promedio.png"</img></center>
+<br>
+<p><b>DIVISIONES:</b>
+No hay función DIVIDIR en Excel, por lo que para hacer uso de esta tarea hay que añadir entre las referencias que se quieran dividir el símbolo de la barra diagonal.
+ Por ejemplo: =B2/B3.</p>
+<center><img src="imagenes/division.png"</img></center>
+<br>
+<p><b>CONTARA:</b>
+Esta función cuenta la cantidad de celdas que no están vacías en un intervalo. Tiene en cuenta las celdas que contienen cualquier tipo de información, incluidos
+los valores de error y de texto vacío. Por ejemplo: =CONTARA(B2:B6).</p>
+<center><img src="imagenes/contar.png"</img></center>
+<br>
+<p><b>IVA:</b>
+Podemos activar esta fórmula añadiendo el símbolo = en cualquier celda. Después, debes introducir en una celda (A2) el valor del IVA y, en otra (B2), el precio del 
+producto. A continuación, multiplica ambas celdas. El resultado final tiene que ser sumado al precio del producto o servicio: (Precio inicial * IVA) + Precio inicial.
+Quedaría así: =(A2*B2)+ A2.</p>
+<center><img src="imagenes/iva.png"</img></center>
+<br>
+Otras formas de calcular el IVA
+Una de ellas es utilizando el símbolo de porcentaje (%). Para introducirlo, debes pulsar shift + 5. Este método es muy similar al anterior, tan solo hay que multiplicar el precio inicial por el porcentaje de IVA y después sumar ese resultado al precio inicial: (Precio Inicial * IVA%) + Precio inicial: = (A1*IVA%)+A1.
+
+<p><b>PROCENTAJES:</b>
+Aplicar formatos de porcentaje en Excel es sencillo. El programa multiplica los números que has seleccionado por 100 para convertirlos en porcentajes. Para que los 
+porcentajes se muestren tal y como deseas, asegúrate de que el número se ha calculado como porcentaje y que se muestra con formato decimal. Los porcentajes se calculan
+ usando la ecuación cantidad/total = porcentaje.Para aplicar rápidamente el formato de porcentaje puedes pulsar la tecla de % que hay en la barra superior del 
+programa o el comando CTRL + shift + %.</p>
+
+<p><b>BUSCARV:</b>
+Es una de las funciones más utilizadas de Excel y se usa para encontrar elementos en una tabla o un rango por fila. Se compone de los siguientes elementos:
+ =BUSCARV (valor_buscado; matriz_buscar_en; indicador_columnas; [ordenado]). Cada uno de estos indicadores significan:</p>
+<ul>
+<li>Valor_buscado: hace referencia al valor que desea buscar</li>.
+<li>Matriz_buscar_en: el rango de celdas en las que BUSCARV buscará valor_buscado y el valor devuelto.</li> 
+<li>Se puede usar un rango con nombre o una tabla, y usar también nombres en el argumento en lugar de referencias de celda.</li>
+<li>Indicador_columnas: es el número de columna que devuelve el valor devuelto.</li>
+<li>Ordenado. Es opcional y se indica como coincidencia aproximada (TRUE) o como coincidencia exacta (FALSE).</li>
+<p>Esta función, además, se puede utilizar con dos condiciones, es decir, para buscar dos o más parámetros al mismo tiempo.</p>
+</ul>
+<br>
+<p><b>CONTAR SI:</b>
+Es una de las funciones estadísticas que sirve para contar el número de celdas que cumplen un criterio. Es decir, nos ayudará a contar, por ejemplo, el número de
+veces que un nombre propio aparece en una lista de inscritos. Por ejemplo: =CONTAR.SI(A1:A7;“Manuel”) Así obtendrás el resultado que buscas, especificando el dónde
+ y el qué.</p>
+
+<p><b>MÁXIMO y MÍNIMO</b> para calcular el valor mayor de un rango
+Esta función tiene el objetivo de permitirte encontrar el valor más alto o más bajo dentro de un rango determinado. Para averiguar cuál es el mayor, es necesario 
+utilizar MAX: =MAX (A1:A500). En cambio, si lo que quieres es saber el inferior, entonces tendrás que escribir MIN: =MIN(A1:A500).</p>
+
+<p><b>REDONDEAR:</b>
+Ahora vamos con una función destinada a redondear cifras hacia arriba o hacia abajo. Se hace de la siguiente manera:</p>
+<ul>
+<li>Redondear hacia arriba.</li>
+<li>Hay que especificar una cifra y el número de dígitos que se quieren redondear.</li> 
+<li>Por ejemplo, 25.741 y tres dígitos.</li> 
+<li>La fórmula quedaría así: REDONDEAR.MAS(25741, +3).</li> 
+<li>El resultado que se mostraría sería 26.000.</li>
+<li>Redondear hacia abajo.</li> 
+<li>Hay que hacer lo mismo que en el caso anterior, pero aplicando la fórmula REDONDEAR.MENOS(25741, -3).</li> 
+<li>El resultado, en este caso, sería 25.000.</li>
+</ul>
+
+</td>
+</div>
+</tr>
+</table>
+<style>
+/* Estilo para el enlace */
+a {
+    color: MediumSeaGreen; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Eliminar el subrayado predeterminado del enlace */
+}
+a:hover {
+    color: red; /* Cambia el color del texto del enlace al pasar el cursor sobre él */
+}
+</style>
+
+</center></font></body>
+
+
+
+
+
+</html>
